@@ -1,7 +1,7 @@
 import { app } from "../../../scripts/app.js";
 import { ComfyWidgets } from "../../../scripts/widgets.js";
 
-const REROUTE_UNLOAD = ["UnloadAllModels","UnloadOneModel"];
+const REROUTE_UNLOAD = ["UnloadAllModels","UnloadOneModel","DeleteAnyObject"];
 const LAST_TYPE = Symbol("LastType");
 
 app.registerExtension({
